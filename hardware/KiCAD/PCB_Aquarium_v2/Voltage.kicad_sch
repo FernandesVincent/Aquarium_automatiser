@@ -523,21 +523,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1225,6 +1223,256 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "R_Small_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_1_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "R_Small_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_2_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_2_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AZ1117-3.3"
 			(pin_names
 				(offset 0.254)
@@ -1850,6 +2098,12 @@
 		(uuid "03a781fe-7695-4f44-beb3-9c6d1df69fe8")
 	)
 	(junction
+		(at 119.38 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "49842dc6-7d9b-4262-9de9-113cdda60969")
+	)
+	(junction
 		(at 125.73 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1903,6 +2157,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 77.47) (xy 129.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecafec5-a378-43fb-804e-9625ea8522da")
+	)
+	(wire
+		(pts
 			(xy 149.86 77.47) (xy 154.94 77.47)
 		)
 		(stroke
@@ -1933,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 76.2) (xy 123.19 77.47)
+			(xy 113.03 76.2) (xy 113.03 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2043,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 77.47) (xy 129.54 77.47)
+			(xy 113.03 77.47) (xy 119.38 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2072,7 +2336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "071194f3-297a-4d2c-bb20-f9ac0f24beef")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR0304"
 			(at 139.7 93.98 0)
 			(effects
 				(font
@@ -2122,7 +2386,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR070")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -2138,7 +2402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d320d9-6d10-415b-b623-a15c00b49291")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR0310"
 			(at 189.23 90.17 0)
 			(effects
 				(font
@@ -2188,7 +2452,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR072")
+					(reference "#PWR0310")
 					(unit 1)
 				)
 			)
@@ -2203,7 +2467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0a70a446-1248-45ec-af75-b217c8c9dcfb")
-		(property "Reference" "C39"
+		(property "Reference" "C302"
 			(at 154.94 102.8763 0)
 			(effects
 				(font
@@ -2257,13 +2521,14 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "C39")
+					(reference "C302")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "R_Small_1")
 		(lib_id "Device:R_Small")
 		(at 176.53 90.17 0)
 		(unit 1)
@@ -2272,7 +2537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1238d761-0341-44b7-868f-22e597789658")
-		(property "Reference" "R5"
+		(property "Reference" "R301"
 			(at 179.07 88.8999 0)
 			(effects
 				(font
@@ -2326,7 +2591,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "R5")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -2342,7 +2607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "148ff062-62b9-4c65-8a8a-f40ca8f3aadc")
-		(property "Reference" "R7"
+		(property "Reference" "R303"
 			(at 204.47 88.8999 0)
 			(effects
 				(font
@@ -2396,7 +2661,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "R7")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -2412,7 +2677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "204808be-bc67-47b1-afde-40e393cea9dd")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR0311"
 			(at 189.23 111.76 0)
 			(effects
 				(font
@@ -2462,7 +2727,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR073")
+					(reference "#PWR0311")
 					(unit 1)
 				)
 			)
@@ -2479,7 +2744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31e9bdfd-ea6b-40c0-96f2-357543ec244a")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0301"
 			(at 121.92 105.41 0)
 			(effects
 				(font
@@ -2529,7 +2794,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR066")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -2546,7 +2811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ef11f86-9577-4824-a274-5f690ef8292b")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR0306"
 			(at 152.4 113.03 0)
 			(effects
 				(font
@@ -2596,7 +2861,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR074")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
@@ -2613,7 +2878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4782cd68-55e0-42f0-a99e-53a0bfa2cec8")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0303"
 			(at 125.73 113.03 0)
 			(effects
 				(font
@@ -2663,7 +2928,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR068")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -2680,7 +2945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cbf98b8-7856-4b74-9dee-eea46af151d2")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR0305"
 			(at 139.7 115.57 0)
 			(effects
 				(font
@@ -2730,7 +2995,143 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR071")
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 119.38 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70c9bc59-9b2f-4f02-8a16-1fd3c96ef1d1")
+		(property "Reference" "C303"
+			(at 121.92 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470u"
+			(at 121.92 81.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_10x10.2"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 119.38 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f509ba7-1717-489f-84be-f65f83ee05d1")
+		)
+		(pin "1"
+			(uuid "98d129ed-4a19-4a32-8a36-ef1a1ace03ad")
+		)
+		(instances
+			(project ""
+				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
+					(reference "C303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70f8606a-6346-4652-a6a0-0d00500d82c5")
+		(property "Reference" "#PWR0313"
+			(at 119.38 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6e30136-085e-45a4-833a-16c21654128f")
+		)
+		(instances
+			(project ""
+				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
+					(reference "#PWR0313")
 					(unit 1)
 				)
 			)
@@ -2746,7 +3147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "776d0115-4303-4c24-a275-7204031b0460")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0308"
 			(at 156.21 105.41 0)
 			(effects
 				(font
@@ -2796,7 +3197,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR077")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -2813,7 +3214,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e0c9126-ccc2-442e-8351-42a6935217f9")
-		(property "Reference" "D1"
+		(property "Reference" "D301"
 			(at 180.34 98.1074 90)
 			(effects
 				(font
@@ -2885,7 +3286,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "D1")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -2902,7 +3303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f9f5c32-1d1e-40f6-aca0-df643d3e1dcc")
-		(property "Reference" "D3"
+		(property "Reference" "D303"
 			(at 205.74 98.1074 90)
 			(effects
 				(font
@@ -2974,7 +3375,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "D3")
+					(reference "D303")
 					(unit 1)
 				)
 			)
@@ -2991,7 +3392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bca1e9e-39c5-40f3-9c56-a134fe92fa65")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0307"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -3041,7 +3442,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR076")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -3057,7 +3458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f7b8069-41a7-41c7-9679-9fd99a4179e5")
-		(property "Reference" "C38"
+		(property "Reference" "C301"
 			(at 128.27 102.8763 0)
 			(effects
 				(font
@@ -3111,7 +3512,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "C38")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -3127,7 +3528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8f5aaa0-93ef-4c5e-891e-240d029f0d1b")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR0312"
 			(at 201.93 90.17 0)
 			(effects
 				(font
@@ -3177,7 +3578,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR075")
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -3193,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5457f02-a456-4961-9094-ed2e60e35630")
-		(property "Reference" "U3"
+		(property "Reference" "U302"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -3258,7 +3659,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "U3")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -3275,7 +3676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c423dc2b-175e-4707-b225-04b47c05d2b6")
-		(property "Reference" "U2"
+		(property "Reference" "U301"
 			(at 139.7 69.85 0)
 			(effects
 				(font
@@ -3339,13 +3740,14 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "U2")
+					(reference "U301")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "R_Small_2")
 		(lib_id "Device:R_Small")
 		(at 189.23 90.17 0)
 		(unit 1)
@@ -3355,7 +3757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9dcc812-f1f9-4131-ace9-39a4bcc0658c")
-		(property "Reference" "R6"
+		(property "Reference" "R302"
 			(at 191.77 88.8999 0)
 			(effects
 				(font
@@ -3409,7 +3811,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "R6")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea68f09a-1639-4488-a019-5009f1a005de")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR0309"
 			(at 176.53 90.17 0)
 			(effects
 				(font
@@ -3475,7 +3877,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR069")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -3483,7 +3885,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 123.19 76.2 0)
+		(at 113.03 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3491,8 +3893,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6608f6b-5273-4f63-a648-cfc345a27758")
-		(property "Reference" "#PWR067"
-			(at 123.19 80.01 0)
+		(property "Reference" "#PWR0302"
+			(at 113.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,7 +3903,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 123.19 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3509,7 +3911,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 76.2 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3518,7 +3920,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 76.2 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +3929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 123.19 76.2 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3541,7 +3943,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "#PWR067")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -3558,7 +3960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7bdf72b-1e07-4b9f-9b66-e5187dc92331")
-		(property "Reference" "D2"
+		(property "Reference" "D302"
 			(at 193.04 98.1074 90)
 			(effects
 				(font
@@ -3630,7 +4032,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bf49035c-ea8c-4e6d-ac33-610f99f5b4ee"
-					(reference "D2")
+					(reference "D302")
 					(unit 1)
 				)
 			)

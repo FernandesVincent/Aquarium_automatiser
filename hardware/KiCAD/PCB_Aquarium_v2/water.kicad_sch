@@ -5,28 +5,33 @@
 	(uuid "b0865091-68e5-42d1-9144-6ad076a87c52")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -47,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Unpolarized capacitor, small symbol"
 				(at 0 0 0)
 				(effects
 					(font
@@ -56,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector"
+			(property "ki_keywords" "capacitor cap"
 				(at 0 0 0)
 				(effects
 					(font
@@ -65,7 +70,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,55 +79,37 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
 					(stroke
-						(width 0.1524)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
 					(stroke
-						(width 0.1524)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "C_Small_1_1"
 				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -138,9 +125,140 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JST_SH_3_Vertical_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_SH_3_Vertical_1_1_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 3.937)
+					(end 0 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.397)
+					(end 0 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.143)
+					(end 0 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
 					(length 3.81)
-					(name "Pin_2"
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -156,9 +274,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -1.27 0)
 					(length 3.81)
-					(name "Pin_3"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -166,6 +284,412 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JST_SH_3_Vertical_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_SH_3_Vertical_2_1_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 3.937)
+					(end 0 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.397)
+					(end 0 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.143)
+					(end 0 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "my_lib:JST_SH_3_Vertical"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JST_SH_3_Vertical_1_1"
+				(rectangle
+					(start -1.27 5.08)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 3.937)
+					(end 0 3.683)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.397)
+					(end 0 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -1.143)
+					(end 0 -1.397)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 3.81 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -1.27 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 8.89 270)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -403,9 +927,171 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 179.07 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa597ef-b0c9-43e1-a616-30859561cfb8")
+	)
+	(junction
+		(at 173.99 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "135340ed-8347-4f14-9bec-abac3d35760d")
+	)
+	(junction
+		(at 132.08 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "367d30d8-ba68-4cbd-8f64-3863e688110d")
+	)
+	(junction
+		(at 127 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d7be587-9e6e-46dc-8c6f-d3d841fa3a75")
+	)
+	(junction
+		(at 130.81 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53420271-8287-42d1-a70b-77225d825939")
+	)
+	(junction
+		(at 137.16 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6de90c49-09d6-4b15-a9fc-9229d2a3d71d")
+	)
+	(junction
+		(at 167.64 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e3b7646-9244-4063-821e-c59f4b37e2bf")
+	)
+	(junction
+		(at 127 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7615cd63-7e1e-4cb3-ac92-f42f2596832a")
+	)
+	(junction
+		(at 127 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8351044e-438e-4078-94a8-e7293b5e9020")
+	)
+	(junction
+		(at 135.89 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6cad044-1ef8-481f-9da0-4f28183a3518")
+	)
+	(junction
+		(at 167.64 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd2ff8c6-452d-4860-a322-8139857f03f8")
+	)
+	(junction
+		(at 127 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fef88ab5-0881-49ed-9de7-b5f68dc41a47")
+	)
 	(wire
 		(pts
-			(xy 118.11 77.47) (xy 132.08 77.47)
+			(xy 181.61 68.58) (xy 181.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111c2fd7-88b8-4560-bcd0-2197d17cdf6f")
+	)
+	(wire
+		(pts
+			(xy 139.7 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2084d18f-e33f-49f3-a7b7-33f1bfa978eb")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 130.81 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d00275-fe5a-47c6-9f4d-f1b435878f3f")
+	)
+	(wire
+		(pts
+			(xy 127 97.79) (xy 130.81 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25edf2ae-5ad0-4bf0-8b16-fcab29104273")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 138.43 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ba81562-a1ab-435e-8681-55f728b533ec")
+	)
+	(wire
+		(pts
+			(xy 179.07 68.58) (xy 181.61 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5134f1-07c8-4c15-a9d2-38195b2c6ff8")
+	)
+	(wire
+		(pts
+			(xy 137.16 85.09) (xy 139.7 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "361254e0-fac5-4679-b729-92cb0bd79bf3")
+	)
+	(wire
+		(pts
+			(xy 130.81 105.41) (xy 135.89 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39173357-7d83-4220-aedb-043b957d5432")
+	)
+	(wire
+		(pts
+			(xy 138.43 105.41) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac4ddff-02f7-4cbd-b1d5-8acf79beb6d3")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
@@ -415,7 +1101,47 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 97.79) (xy 130.81 97.79)
+			(xy 173.99 81.28) (xy 173.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534deff6-2dab-4a83-85f8-f59550c985e9")
+	)
+	(wire
+		(pts
+			(xy 181.61 83.82) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c4c6450-230c-4221-bd69-6e5726e282bd")
+	)
+	(wire
+		(pts
+			(xy 127 77.47) (xy 132.08 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61fa2594-072b-472a-a10f-4d2797a7a287")
+	)
+	(wire
+		(pts
+			(xy 173.99 81.28) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a20c121-1833-41f7-b196-d0a0ac095b0c")
+	)
+	(wire
+		(pts
+			(xy 116.84 97.79) (xy 127 97.79)
 		)
 		(stroke
 			(width 0)
@@ -425,13 +1151,123 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 173.99 76.2)
+			(xy 139.7 85.09) (xy 139.7 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb6723f-8ce9-412d-996e-c7a15d31ca25")
+	)
+	(wire
+		(pts
+			(xy 167.64 81.28) (xy 173.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ba3200-ec3b-42d8-bc81-ba74e1b20878")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c2bb68b-608d-4deb-8f26-326905953e60")
+	)
+	(wire
+		(pts
+			(xy 138.43 90.17) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f066172-22a5-40b4-8e85-d298a1ed1a0d")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 137.16 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a51b8dcb-f58c-45da-abcb-a16add6c8ac3")
+	)
+	(wire
+		(pts
+			(xy 160.02 76.2) (xy 167.64 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8cda845-60c3-456d-b455-d1f92d930bac")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 132.08 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebabc5c6-b88a-4402-9901-f796a994fc4b")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 179.07 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f7023e-7cab-4cae-ae1e-2ae81e4ed015")
+	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 173.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f351f9af-6304-4e27-aa54-f7e7fdf975ac")
+	)
+	(wire
+		(pts
+			(xy 127 82.55) (xy 132.08 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4e9e2e2-0ad1-46df-b94c-109035ba4288")
+	)
+	(wire
+		(pts
+			(xy 132.08 82.55) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8308b5e-5de3-49c5-aaec-ea0ead4dae3b")
+	)
+	(wire
+		(pts
+			(xy 130.81 102.87) (xy 130.81 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff43e6ff-5d68-451c-ba26-e3e5ba9b2ed6")
 	)
 	(hierarchical_label "Water_int_2"
 		(shape input)
@@ -474,7 +1310,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 132.08 80.01 0)
+		(at 127 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -482,8 +1318,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f69f4ce-543c-48c0-9fd9-c42811d36c13")
-		(property "Reference" "#PWR011"
-			(at 132.08 86.36 0)
+		(property "Reference" "#PWR0403"
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,7 +1328,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 85.09 0)
+			(at 127 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -500,7 +1336,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 80.01 0)
+			(at 127 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -509,7 +1345,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 80.01 0)
+			(at 127 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -518,7 +1354,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 80.01 0)
+			(at 127 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -532,15 +1368,85 @@
 		(instances
 			(project ""
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "#PWR011")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 135.89 97.79 0)
+		(lib_id "Device:C_Small")
+		(at 127 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "24d50465-a4ca-438c-9877-68b6a2beebf5")
+		(property "Reference" "C401"
+			(at 124.46 78.7462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 124.46 81.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "addc4bf3-6568-4495-bf3e-d3b88aad91f5")
+		)
+		(pin "2"
+			(uuid "92fd2b7f-2cab-40ad-a6da-b592ebce461a")
+		)
+		(instances
+			(project "PCB_Aquarium_v2"
+				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
+					(reference "C401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "JST_SH_3_Vertical_1")
+		(lib_id "my_lib:JST_SH_3_Vertical")
+		(at 135.89 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -548,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee45c3a-912f-4040-84ea-b05afd4f8f56")
-		(property "Reference" "J7"
+		(property "Reference" "J401"
 			(at 138.43 96.5199 0)
 			(effects
 				(font
@@ -566,8 +1472,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 97.79 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -576,7 +1482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 97.79 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -585,7 +1491,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 135.89 97.79 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,10 +1508,85 @@
 		(pin "2"
 			(uuid "a4daa92c-eaaf-49bd-9b11-be9794b99729")
 		)
+		(pin "MP"
+			(uuid "e7acd583-168c-499e-850a-abe05d27f3be")
+		)
+		(pin "MP"
+			(uuid "4af8f76c-565f-4f15-bb43-89f0e247e41b")
+		)
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "J7")
+					(reference "J401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 127 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6210b6de-0691-4721-ad51-a64a4f32d1fa")
+		(property "Reference" "C402"
+			(at 124.46 99.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 124.46 101.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 127 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da695654-4e86-432d-b81e-d7ae6ba2bffe")
+		)
+		(pin "2"
+			(uuid "e69b5e36-9a8c-4729-b5eb-5d93c8155ebd")
+		)
+		(instances
+			(project "PCB_Aquarium_v2"
+				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -621,7 +1602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ef8131b-16e5-47dc-8d18-42f66a90c45d")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR0405"
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -671,15 +1652,16 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "#PWR016")
+					(reference "#PWR0405")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 179.07 76.2 0)
+		(lib_name "JST_SH_3_Vertical_2")
+		(lib_id "my_lib:JST_SH_3_Vertical")
+		(at 179.07 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -687,7 +1669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a094f438-5df3-411c-9bf4-cb2a805d1de7")
-		(property "Reference" "J8"
+		(property "Reference" "J403"
 			(at 181.61 74.9299 0)
 			(effects
 				(font
@@ -705,8 +1687,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 76.2 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 179.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +1697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 76.2 0)
+			(at 179.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -724,7 +1706,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 179.07 76.2 0)
+			(at 179.07 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -741,10 +1723,85 @@
 		(pin "2"
 			(uuid "de093759-b56f-4c32-99aa-bae1b365f453")
 		)
+		(pin "MP"
+			(uuid "5921115d-71e8-4e6c-b81a-47f5ad2f1249")
+		)
+		(pin "MP"
+			(uuid "5fb4ca31-191c-40f5-bbb9-78f7e21cd9d3")
+		)
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "J8")
+					(reference "J403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 167.64 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6852fa2-2ff4-44cd-9017-5f03e3a33b19")
+		(property "Reference" "C403"
+			(at 165.1 77.4762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1u"
+			(at 165.1 80.0162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 167.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97aa2b94-21eb-48aa-a49a-9fd3ab3cc93c")
+		)
+		(pin "2"
+			(uuid "d9c8f201-0f1d-4e59-9fd7-605384d72269")
+		)
+		(instances
+			(project "PCB_Aquarium_v2"
+				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -760,7 +1817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad0948b3-e24c-4183-b063-4f61ed7aaad1")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0402"
 			(at 118.11 81.28 0)
 			(effects
 				(font
@@ -810,7 +1867,7 @@
 		(instances
 			(project ""
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "#PWR010")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -818,7 +1875,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 100.33 0)
+		(at 127 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -826,8 +1883,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1de98c5-bf5a-45f1-9f04-4c8ad78eba17")
-		(property "Reference" "#PWR013"
-			(at 130.81 106.68 0)
+		(property "Reference" "#PWR0404"
+			(at 127 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,7 +1893,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 105.41 0)
+			(at 127 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -844,7 +1901,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 100.33 0)
+			(at 127 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +1910,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 100.33 0)
+			(at 127 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +1919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 100.33 0)
+			(at 127 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -876,15 +1933,15 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "#PWR013")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 137.16 77.47 0)
+		(lib_id "my_lib:JST_SH_3_Vertical")
+		(at 137.16 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -892,7 +1949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3c342b5-d293-4088-914a-893e4d196ee5")
-		(property "Reference" "J6"
+		(property "Reference" "J402"
 			(at 139.7 76.1999 0)
 			(effects
 				(font
@@ -910,8 +1967,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 137.16 77.47 0)
+		(property "Footprint" "Connector_JST:JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical"
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -920,7 +1977,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 77.47 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +1986,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 137.16 77.47 0)
+			(at 137.16 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,10 +2003,16 @@
 		(pin "2"
 			(uuid "c91786f7-45d0-4d5e-91af-ac5bf24286c3")
 		)
+		(pin "MP"
+			(uuid "c16d7038-f655-448e-af11-884e0b807e23")
+		)
+		(pin "MP"
+			(uuid "cd1c3aa0-c00b-4746-9f75-f08c57c4e051")
+		)
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "J6")
+					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -965,7 +2028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c51db6af-797c-48fa-9341-6db6ffe26e2e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR0401"
 			(at 116.84 101.6 0)
 			(effects
 				(font
@@ -1015,7 +2078,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "#PWR012")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1023,7 +2086,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 78.74 0)
+		(at 167.64 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1031,8 +2094,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9653089-39d0-4f54-9614-30c1591e6a4a")
-		(property "Reference" "#PWR017"
-			(at 173.99 85.09 0)
+		(property "Reference" "#PWR0406"
+			(at 167.64 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +2104,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 83.82 0)
+			(at 167.64 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +2112,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 78.74 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1058,7 +2121,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 78.74 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +2130,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 78.74 0)
+			(at 167.64 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +2144,7 @@
 		(instances
 			(project "PCB_Aquarium_v2"
 				(path "/2dd88866-dc89-46d7-b019-002e9029eb7f/bff67ee1-2f10-4686-9a0d-68d3c7b10ef6"
-					(reference "#PWR017")
+					(reference "#PWR0406")
 					(unit 1)
 				)
 			)
