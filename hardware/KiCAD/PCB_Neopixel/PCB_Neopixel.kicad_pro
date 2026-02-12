@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 3.0,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -495,7 +495,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -647,43 +647,43 @@
       "Root"
     ],
     [
-      "c18f2725-b5d4-46da-99bf-63d52c2d4717",
+      "ae07448a-f2cf-4488-8960-5bbd68390d31",
       "Segment"
     ],
     [
-      "1a6698f9-3e35-4612-834c-e43ba61820e0",
+      "8bfeb2ef-36fa-45cf-9417-804c9e29bde9",
       "Segment1"
     ],
     [
-      "4990677d-c64b-45f7-bec8-de7a46facd61",
+      "ff68dbb1-ca12-42fa-8c75-9c9db5ae4224",
       "Segment2"
     ],
     [
-      "1df84df1-fe3c-4e59-a50a-e390bd7c3b60",
+      "e823da12-db91-4071-8ce6-dafeada7c64f",
       "Segment3"
     ],
     [
-      "bafc06ff-31c8-421e-a981-63156237e583",
+      "d045f485-b569-4ecc-b793-af421e98030e",
       "Segment4"
     ],
     [
-      "2d7c0600-1895-442e-a2ca-2155832884d7",
+      "431c652c-9b44-4b43-a2cf-c64ae0f20c2f",
       "Segment5"
     ],
     [
-      "35f6cdb1-d4eb-48ab-b9e8-1c443074c4e8",
+      "c30b3258-0c7e-4685-aa3a-a4cf7abf410f",
       "Segment6"
     ],
     [
-      "fe4c8e8a-517c-459e-a263-d7e9cceaadf8",
+      "a1fda3e5-19dc-485e-a7e2-14e785d1f4aa",
       "Segment7"
     ],
     [
-      "e6b46276-2214-443b-a01c-14df81a9b4a4",
+      "163af88f-35b2-41b8-9942-c85073acf197",
       "Segment8"
     ],
     [
-      "887b7045-ca34-438e-b02c-d51ea36836c9",
+      "db7a6b4a-6fb1-4623-8cb9-6cb816201127",
       "Segment9"
     ]
   ],
